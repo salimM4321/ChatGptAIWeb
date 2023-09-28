@@ -1,0 +1,914 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Poppins;
+}
+.FirstMainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(blue,darkblue) ;
+    height: 70rem;
+    gap: 2rem;
+}
+.FirstTxt{
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+.secondTxt{
+    color: #ffffff;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+.Rupees{
+    font-size: 2rem;
+    color: yellow;
+    margin-top: 1.5rem;
+}
+.SaveSeat{
+    width: 40rem;
+    height: 4.5rem;
+    margin-top:2.7rem;
+    color:#000000;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, yellow,blue);
+    cursor: pointer;
+    position: sticky;
+    
+}
+.VedioFrame{
+    border: 5px solid #ffffff; 
+    width: 40rem;
+    height: 23rem;
+}
+.SaveSeat:hover{
+    color: #0e0202;
+    background-image: linear-gradient(to left, blue,yellow);
+
+}
+.videoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Coundown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1.5rem;
+}
+.Time{
+    width: 7rem;
+    height: 7rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-weight: bolder;
+}
+.SetTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 1.2rem;
+    gap: 5.5rem;
+
+}
+.SecondMainContainer{
+    margin-top: 2rem;
+}
+.Learn{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.footLast{
+    margin-top: 2rem;
+    color: yellow;
+    margin-right: 10rem;
+    font-size: 1.3rem;
+}
+.LearnBox{
+    width: 50rem;
+    height: 65rem;
+    border: 2px solid black;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+.LearnBox1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.LearnBox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.ImgGpt{
+    flex-direction: column;
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center
+    
+    
+}
+
+.srcSet{
+    width: 43rem;
+    height: 27rem;
+
+}
+.GptInfo{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: grey;
+    margin-top: 3rem;
+}
+.Learndata{
+    font-size: 2rem;
+    padding: 1rem;
+    
+    
+}
+.ImageDat{
+    display: flex;
+}
+.about{
+    font-size: 2.5rem;
+}
+.TickImg{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem;
+
+
+}
+.MoreInfo{
+    margin-top: 1rem;
+}
+.Why{
+    margin-left: 3rem;
+}
+.ExtraBonuses{
+    margin-top: 1.5rem;
+    width: 104rem;
+    height: 13rem;
+    background-color:whitesmoke;
+    margin: auto;
+}
+.EBonuses{
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+    line-height: 3rem;
+}
+.ClassDate{
+    display: flex;
+    width: 107rem;
+    background-image:linear-gradient(to left,blue,rgb(14, 14, 40)) ;
+    height: 16rem;
+    margin: auto;
+    gap: 9rem;
+    margin-top: 3rem;
+}
+.Masterclass{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 5rem;
+    padding: 2rem;
+}
+
+.ClassSeat{
+    margin: auto;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+   
+ 
+}
+@media (min-width:200px)and (max-width:349px){
+    .FirstMainContainer{
+        height: 55rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .FirstTxt{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    .secondTxt{
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Rupees{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .SaveSeat{
+        width: 12rem;
+        height: 4rem;
+        border-radius: 1.5rem;
+        font-size: 0.7rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+        
+    }
+    .VedioFrame{
+        width: 10rem;
+        height: 6rem;
+    }
+    .Coundown{
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .Time{
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+    .SetTime{
+        color: #ffffff;
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
+        gap:1rem;
+    
+    }
+    .footLast{
+        
+        color: yellow;
+        margin: auto;
+        font-size: 0.5rem;
+        margin-top: 1.5rem;
+    }
+    .SecondMainContainer{
+        margin-top: 2rem;
+    }
+    .Learn{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .LearnBox{
+        margin: auto;
+        width: 12rem;
+        height: 47rem;
+        margin-top: 2rem;
+       
+    }
+    .LearnBox1{
+        flex-direction: column;
+    
+    }
+    .LearnBox2{
+        flex-direction: column;
+    }
+    
+    .srcSet{
+        width: 9rem;
+        height: 7rem;
+    
+    }
+    .GptInfo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    
+    }
+    .GptInfo2{
+        font-size: 1.3rem;
+    }
+
+    .Learndata{
+        font-size: 1rem;
+        padding: 1rem;
+        
+        
+    }
+    .ImageDat{
+        display: flex;
+    }
+    /* .about{
+        font-size: 2.5rem;
+        gap: 0.3rem;
+        font-size: 0.5rem;
+    } */
+    .about{
+        font-size: 1rem;
+        width: 11rem;
+        text-align: center;
+    }
+    .TickImg{
+        width: 1rem;
+        height: 1rem;
+    }
+    .Why{
+        margin-left: 0rem;
+    }
+    .OthLearnBox{
+        height: 50rem;
+    }
+  
+    .ExtraBonuses{
+      
+        width: 12rem;
+        height: 40rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .EBonuses{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .ClassDate{
+        width: 12rem;
+        height: 35rem;
+       flex-direction: column;
+        background-image:linear-gradient(to left,blue,rgb(14, 14, 40)) ;
+        margin: auto;
+      gap: 0.5rem;
+      margin-top: 2rem;
+       
+    }
+    .Masterclass{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 3rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .ClassSeat{
+        margin: auto;
+        margin-top: 3rem;  
+    }
+      
+
+}
+
+@media (min-width:349px) and (max-width:499px){
+
+    .FirstMainContainer{
+        height: 55rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .FirstTxt{
+        font-size: 1.8rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    .secondTxt{
+        line-height: 1.7rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Rupees{
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .SaveSeat{
+        width: 19rem;
+        height: 3rem;
+        font-size: 0.7rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+        
+    }
+    .VedioFrame{
+        width: 19rem;
+        height: 11rem;
+        margin-top: 2rem;
+    }
+    .Coundown{
+        gap: 2.5rem;
+        margin-top: 2rem;
+    }
+    .Time{
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+    .SetTime{
+        font-size: 0.7rem;
+        margin-top: 0.7rem;
+        gap:3.3rem;
+    
+    }
+    .footLast{
+        
+        color: yellow;
+        margin: auto;
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    .SecondMainContainer{
+        margin-top: 2rem;
+    }
+    .Learn{
+        font-size: 2.1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .LearnBox{
+        margin: auto;
+        width: 19rem;
+        height: 40rem;
+        margin-top: 2rem;
+       
+    }
+    .LearnBox1{
+        flex-direction: column;
+    
+    }
+    .LearnBox2{
+        flex-direction: column;
+    }
+    
+    .srcSet{
+        width: 15rem;
+        height: 12rem;
+    
+    }
+    .GptInfo{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    
+    }
+    .GptInfo2{
+        font-size: 1.3rem;
+    }
+
+    .ImageDat{
+        display: flex;
+    }
+    /* .about{
+        font-size: 2.5rem;
+        gap: 0.3rem;
+        font-size: 0.5rem;
+    } */
+    .about{
+        font-size: 1.5rem;
+        /* width: 11rem; */
+        text-align: center;
+    }
+    .TickImg{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .Learndata{
+        font-size: 1.2rem;
+        padding: 1rem;
+          
+    }
+    .LearnboxH{
+            height: 50rem;
+    }
+    .Why{
+        margin-left: 0rem;
+    }
+    .OthLearnBox{
+        height: 50rem;
+    }
+  
+    .ExtraBonuses{
+      
+        width: 19rem;
+        height: 24rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .EBonuses{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .ClassDate{
+        width: 19rem;
+        height: 27rem;
+       flex-direction: column;
+        background-image:linear-gradient(to left,blue,rgb(14, 14, 40)) ;
+        margin: auto;
+      gap: 0.1rem;
+      margin-top: 2rem;
+       
+    }
+    .Masterclass{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 3rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .ClassSeat{
+        margin: auto;
+        margin-top: 3rem;  
+    }
+
+}
+
+@media (min-width:499px) and (max-width:769px){
+    
+    .FirstMainContainer{
+        height: 65rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .FirstTxt{
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .secondTxt{
+        line-height: 1.7rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Rupees{
+        font-size: 1.4rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    
+    }
+    .SaveSeat{
+        width: 24rem;
+        height: 3.2rem;
+        font-size: 0.7rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+        
+    }
+    .VedioFrame{
+        width: 28rem;
+        height: 16rem;
+        margin-top: 2rem;
+    }
+    .Coundown{
+        gap: 2.5rem;
+        margin-top: 2rem;
+    }
+    .Time{
+        width: 4.2rem;
+        height: 4.2rem;
+        font-size: 1.8rem;
+    }
+    .SetTime{
+        font-size: 0.8rem;
+        margin-top: 0.7rem;
+        gap:3.3rem;
+    
+    }
+    .footLast{
+        
+        color: yellow;
+        margin: auto;
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+    }
+    .SecondMainContainer{
+        margin-top: 2rem;
+    }
+    .Learn{
+        font-size: 2.1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .LearnBox{
+        margin: auto;
+        width: 26rem;
+        height: 45rem;
+        margin-top: 2rem;
+       
+    }
+    .LearnBox1{
+        flex-direction: column;
+    
+    }
+    .LearnBox2{
+        flex-direction: column;
+    }
+    
+    .srcSet{
+        width: 20rem;
+        height: 16rem;
+    
+    }
+    .GptInfo{
+        font-size: 1.7rem;
+        margin-top: 1rem;
+        text-align: center;
+    
+    }
+    .GptInfo2{
+        font-size: 1.6rem;
+    }
+
+    .ImageDat{
+        display: flex;
+    }
+    /* .about{
+        font-size: 2.5rem;
+        gap: 0.3rem;
+        font-size: 0.5rem;
+    } */
+    .about{
+        font-size: 1.5rem;
+        /* width: 11rem; */
+        text-align: center;
+    }
+    .TickImg{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+    .Learndata{
+        font-size: 1.3rem;
+        padding: 1rem;
+          
+    }
+    .LearnboxH{
+            height: 50rem;
+    }
+    .Why{
+        margin-left: 0rem;
+        width: 22rem;
+    }
+    .OthLearnBox{
+        height: 50rem;
+    }
+  
+    .ExtraBonuses{
+      
+        width: 27rem;
+        height: 22rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .EBonuses{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-top: 1rem;
+    }
+    .ClassDate{
+        width: 27rem;
+        height: 25rem;
+       flex-direction: column;
+        background-image:linear-gradient(to left,blue,rgb(14, 14, 40)) ;
+        margin: auto;
+      gap: 0.1rem;
+      margin-top: 2rem;
+       
+    }
+    .Masterclass{
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 3rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .ClassSeat{
+        margin: auto;
+        margin-top: 3rem;  
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1023px){
+
+    .FirstMainContainer{
+        height: 65rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .FirstTxt{
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .secondTxt{
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .Rupees{
+        font-size: 1.7rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    
+    }
+    .SaveSeat{
+        width: 26rem;
+        height: 3.3rem;
+        font-size: 0.8rem;
+        margin: auto;
+        margin-top: 2rem;
+        text-align: center;
+        
+    }
+    .VedioFrame{
+        width: 33rem;
+        height: 19rem;
+        margin-top: 2rem;
+    }
+    .Coundown{
+        gap: 3rem;
+        margin-top: 2rem;
+    }
+    .Time{
+        width: 4.4rem;
+        height: 4.4rem;
+        font-size: 1.9rem;
+    }
+    .SetTime{
+        font-size: 0.9rem;
+        margin-top: 0.7rem;
+        gap:3.4rem;
+    
+    }
+    .footLast{
+        
+        color: yellow;
+        margin: auto;
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+    .SecondMainContainer{
+        margin-top: 2rem;
+    }
+    .Learn{
+        font-size: 2.2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .LearnBox{
+        margin: auto;
+        width: 34rem;
+        height: 45rem;
+        margin-top: 2rem;
+       
+    }
+    .LearnBox1{
+        flex-direction: column;
+    
+    }
+    .LearnBox2{
+        flex-direction: column;
+    }
+    
+    .srcSet{
+        width: 28rem;
+        height: 19rem;
+    
+    }
+    .GptInfo{
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        text-align: center;
+    
+    }
+    .GptInfo2{
+        font-size: 1.6rem;
+    }
+
+    .ImageDat{
+        display: flex;
+    }
+    /* .about{
+        font-size: 2.5rem;
+        gap: 0.3rem;
+        font-size: 0.5rem;
+    } */
+    .about{
+        font-size: 1.5rem;
+        /* width: 11rem; */
+        text-align: center;
+    }
+    .TickImg{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .Learndata{
+        font-size: 1.5rem;
+        padding: 1rem;
+          
+    }
+    .LearnboxH{
+            height: 50rem;
+    }
+    .Why{
+        margin-left: 0rem;
+        width: 22rem;
+    }
+    .OthLearnBox{
+        height: 55rem;
+    }
+  
+    .ExtraBonuses{
+        margin: auto;
+        width: 38rem;
+        height: 15rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .EBonuses{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin-top: 2rem;
+    }
+    .ClassDate{
+        width: 37rem;
+        height: 25rem;
+       flex-direction: column;
+        background-image:linear-gradient(to left,blue,rgb(14, 14, 40)) ;
+        margin: auto;
+      gap: 0.1rem;
+      margin-top: 2rem;
+       
+    }
+    .Masterclass{
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .ClassSeat{
+        margin: auto;
+        margin-top: 3rem;  
+    }
+
+}
+
+@media (min-width:1023px) and (max-width:1350px){
+    
+
+}
